@@ -1,0 +1,10 @@
+@media screen and (max-width:600px) {
+    #con{
+        width: 500px;
+    }
+    .ifr{
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+    }
+}

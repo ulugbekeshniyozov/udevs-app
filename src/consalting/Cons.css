@@ -1,0 +1,8 @@
+@media screen and (max-width:1100px){
+    .cont{
+        margin-top: 500px;
+    }
+    .id{
+        width: 400px !important;
+    }
+}

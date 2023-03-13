@@ -1,0 +1,13 @@
+.clk{
+    transform: translate(-40px , 0px) !important;
+}
+@media screen and (max-width:1100px) {
+     .clk > img{
+        width: 500px;
+        transform: translate(40px , 0px);
+    }
+    #col-6{
+        margin-bottom: 250px;
+        transform: translate(-300px , 300px);
+    }
+}

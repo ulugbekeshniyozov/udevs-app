@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Team from "./team/Team";
+import Servis from './servis/Servis';
+import Design from './design/Design';
+import Opt from './opt/Opt';
+import Const from "./consalting/Cons";
+import Tools from "./tools/Tools";
+import Delever from "./delever/Delever";
+import Sms from "./smsuz/Sms";
+import Form from "./form/Form";
+import Nav from './nav/Nav'
+import Mobile from './mobile/Mobile'
+import Erp from './erp/Opt'
+import Footer from "./footer/Footer";
+import Iman from './iman/Sms'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Nav/>
+    <Servis/>
+      <Team/>
+      <Mobile/>
+      <Erp/>
+      <Design/>
+      <Opt/>
+      <Const/>
+      <Tools/>
+      <Delever/>
+      <Sms/>
+      <Iman/>
+      <Form/>
+      <Footer/>
+    </>
   );
 }
 

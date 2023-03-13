@@ -1,0 +1,58 @@
+footer {
+    width: 100%;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 254, 255);
+  }
+
+  .footerLeft {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .footerRight {
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  footer {
+    display: flex;
+  }
+  
+  .fMenuTitle {
+    font-size: 20px;
+  }
+  
+  .footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .fList {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fListItem {
+    margin-bottom: 10px;
+    color: blue;
+    cursor: pointer;
+  }
+  @media screen and (max-width:600px) {
+    .footerLeft{
+        padding: 0px;
+    }
+  }
+  
